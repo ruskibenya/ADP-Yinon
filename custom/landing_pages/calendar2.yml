@@ -142,141 +142,137 @@ page:
                 <div class="Vlt-tabs">
                   <div class="Vlt-tabs__header padding-sides black-top-border">
                   <div class="Vlt-tabs__link Vlt-tabs__link_active"></div>
-                    <div id="mondays" class="Vlt-grid  ">
+                    <div id="week_one" class="Vlt-grid">
                       <div class="Vlt-col flex-grow-1">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>10</b></h3>
-                          <p class="padding-left-55">
+                          <h3><b>10</b></h3>
+                          <p>
                             Monday the 10th
                           </p>
                         </div>
                       </div>
                       <div class="Vlt-col">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>17</b></h3>
-                          <p class="padding-left-55">
-                            Monday the 17th
+                          <h3><b>11</b></h3>
+                          <p>
+                            Tuesday the 12th
                           </p>
                         </div>
                       </div>
 
                       <div class="Vlt-col">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>24</b></h3>
-                          <p class="padding-left-55">
+                          <h3><b>12</b></h3>
+                          <p>
+                            Monday the 24th
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3><b>13</b></h3>
+                          <p>
+                            Monday the 24th
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3><b>14</b></h3>
+                          <p>
                             Monday the 24th
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div id="tuesdays" class="Vlt-grid ">
+                    <div id="week_two" class="Vlt-grid">
                       <div class="Vlt-col flex-grow-1">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>11</b></h3>
-                          <p class="padding-left-55">
-                            Tuesday the 11th
+                          <h3><b>17</b></h3>
+                          <p>
+                            Monday the 18th
                           </p>
                         </div>
                       </div>
                       <div class="Vlt-col">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>18</b></h3>
-                          <p class="padding-left-55">
-                            Tuesday the 18th
+                          <h3><b>18</b></h3>
+                          <p>
+                            Tuesday the 12th
                           </p>
                         </div>
                       </div>
 
                       <div class="Vlt-col">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>25</b></h3>
-                          <p class="padding-left-55">
-                            Tuesday the 25th
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="wednesdays" class="Vlt-grid ">
-                      <div class="Vlt-col flex-grow-1">
-                        <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>12</b></h3>
-                          <p class="padding-left-55">
-                            Wednesday the 12th
+                          <h3><b>19</b></h3>
+                          <p>
+                            Monday the 24th
                           </p>
                         </div>
                       </div>
                       <div class="Vlt-col">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>19</b></h3>
-                          <p class="padding-left-55">
-                            Wednesday the 19th
+                          <h3><b>20</b></h3>
+                          <p>
+                            Monday the 24th
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3><b>21</b></h3>
+                          <p>
+                            Monday the 24th
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="week_three" class="Vlt-grid">
+                      <div class="Vlt-col flex-grow-1">
+                        <div class="Vlt-tabs__link">
+                          <h3><b>24</b></h3>
+                          <p>
+                            Monday the 18th
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3><b>25</b></h3>
+                          <p>
+                            Tuesday the 12th
                           </p>
                         </div>
                       </div>
 
                       <div class="Vlt-col">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>26</b></h3>
-                          <p class="padding-left-55">
-                            Wednesday the 26th
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="thursdays" class="Vlt-grid ">
-                      <div class="Vlt-col flex-grow-1">
-                        <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>13</b></h3>
-                          <p class="padding-left-55">
-                            Thursday the 13th
+                          <h3><b>26</b></h3>
+                          <p>
+                            Monday the 24th
                           </p>
                         </div>
                       </div>
                       <div class="Vlt-col">
                         <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>20</b></h3>
-                          <p class="padding-left-55">
-                            Thursday the 20th
+                          <h3><b>27</b></h3>
+                          <p>
+                            Monday the 24th
                           </p>
                         </div>
                       </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3><b>28</b></h3>
+                          <p>
+                            Monday the 24th
+                          </p>
+                        </div>
+                      </div>
+                    </div>
 
-                      <div class="Vlt-col">
-                        <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>27</b></h3>
-                          <p class="padding-left-55">
-                            Thursday the 27th
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="fridays" class="Vlt-grid ">
-                      <div class="Vlt-col flex-grow-1">
-                        <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>14</b></h3>
-                          <p class="padding-left-55">
-                            Friday the 14th
-                          </p>
-                        </div>
-                      </div>
-                      <div class="Vlt-col">
-                        <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>21</b></h3>
-                          <p class="padding-left-55">
-                            Friday the 21th
-                          </p>
-                        </div>
-                      </div>
 
-                      <div class="Vlt-col">
-                        <div class="Vlt-tabs__link">
-                          <h3 class="padding-right-70"><b>28</b></h3>
-                          <p class="padding-left-55">
-                            Friday the 28th
-                          </p>
-                        </div>
-                      </div>
-                    </div>
 
                   </div>
 
@@ -290,14 +286,14 @@ page:
                       </div>
                     </div>
                   </div>
-                  <div class="Vlt-tabs__panel" id="day_1">I'm also a tab panel</div>
-                  <div class="Vlt-tabs__panel" id="day_2">I'm an inaccessible tab panel becayse my link is disabled</div>
-                  <div class="Vlt-tabs__panel" id="day_3">I'm an inaccessible tab panel becayse my link is disabled</div>
-                  <div class="Vlt-tabs__panel" id="day_4">I'm an inaccessible tab panel becayse my link is disabled</div>
-                  <div class="Vlt-tabs__panel" id="day_5">I'm an inaccessible tab panel becayse my link is disabled</div>
-                  <div class="Vlt-tabs__panel" id="day_6">I'm an inaccessible tab panel becayse my link is disabled</div>
-                  <div class="Vlt-tabs__panel" id="day_7">I'm an inaccessible tab panel becayse my link is disabled</div>
-                  <div class="Vlt-tabs__panel" id="day_8">I'm an inaccessible tab panel becayse my link is disabled</div>
+                  <div class="Vlt-tabs__panel" id="day_1">Today is the 10th</div>
+                  <div class="Vlt-tabs__panel" id="day_2">Today is the 11th</div>
+                  <div class="Vlt-tabs__panel" id="day_3">Today is the 12th</div>
+                  <div class="Vlt-tabs__panel" id="day_4">Today is the 13th</div>
+                  <div class="Vlt-tabs__panel" id="day_5">Today is the 14th</div>
+                  <div class="Vlt-tabs__panel" id="day_6">Today is the 15th</div>
+                  <div class="Vlt-tabs__panel" id="day_7">Today is the 16th</div>
+                  <div class="Vlt-tabs__panel" id="day_8">Today is the 17th</div>
                   <div class="Vlt-tabs__panel" id="day_9">I'm an inaccessible tab panel becayse my link is disabled</div>
                   <div class="Vlt-tabs__panel" id="day_10">I'm an inaccessible tab panel becayse my link is disabled</div>
                   <div class="Vlt-tabs__panel" id="day_11">I'm an inaccessible tab panel becayse my link is disabled</div>
@@ -399,6 +395,7 @@ page:
 
               .Vlt-tabs__header{
                 border-bottom: none;
+                display: inherit;
               }
 
               .Vlt-tabs{
@@ -412,6 +409,7 @@ page:
               .Vlt-col > .Vlt-tabs__link_active{
                   background: #B779FF;
                   border-radius: 6px;
+                  padding: 10px;
               }
 
               .Vlt-tabs__link_active > h3{
