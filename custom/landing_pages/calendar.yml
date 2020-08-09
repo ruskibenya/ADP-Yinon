@@ -1,0 +1,417 @@
+title: "Vonage Devs TV"
+meta_title: "Each week our developers host livestreams on Twitch showing viewers how to code and build innovative apps using our APIs and products."
+container_classes:
+  - upcoming-programming-page
+page:
+  - row:
+    - column:
+      - type: html
+        html:
+          content:
+            <div id="Vlt-sidenav" class="Vlt-sidenav Nxd-sidenav Vlt-sidenav--animate Vlt-sidenav--rounded">
+              <div class="Vlt-sidenav_scroll">
+                <nav class="sidenav">
+                  <ul class="Vlt-sidemenu navigation js-navigation navigation--documentation">
+                    <li class="navigation-item--show-lineup navigation-item">
+                      <span class="Vlt-sidemenu__trigger" role="link">
+                        <svg class="Vlt-gray-darker">
+                          <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-video">
+                          </use>
+                        <svg>
+                        <span class="Vlt-sidemenu__label">
+                        Show Lineup
+                        </span>
+                      </span>
+                      <ul>
+                        <li class="navigation-item--overview navigation-item">
+                          <a class="Vlt-sidemenu__link" role="link" href="/devtv">
+                            Overview
+                          </a>
+                        </li>
+                        <li class="navigation-item--shows navigation-item">
+                        </li>
+                        <li class="js--collapsible navigation-item--guides navigation-item">
+                          <a class="Vlt-sidemenu__trigger" href="/devtv">
+                            <span class="Vlt-sidemenu__label">
+                            Shows
+                            </span>
+                          </a>
+                          <ul>
+                            <li class="navigation-item--lauren-learns-things navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="/llt">
+                                Lauren Learns Things
+                              </a>
+                            </li>
+                            <li class="navigation-item--low-code-hour navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#lch">
+                                The Low-Code Hour
+                              </a>
+                            </li>
+                            <li class="navigation-item--developer-drop-in navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#ddi">
+                                Developer Drop-In
+                              </a>
+                            </li>
+                            <li class="navigation-item--new-stream-who-dis navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#nswd">
+                                New Stream, Who Dis?
+                              </a>
+                            </li>
+                            <li class="navigation-item--no-experience-required navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#ner">
+                                No Experience Required
+                              </a>
+                            </li>
+                            <li class="navigation-item--ate-night-build navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#tlnb">
+                                The Late Night Build
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="navigation-item--upcoming-programming navigation-item">
+                      <span class="Vlt-sidemenu__trigger" role="link">
+                        <svg class="Vlt-gray-darker">
+                          <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-calendar-3">
+                          </use>
+                        <svg>
+                        <span class="Vlt-sidemenu__label">
+                          Upcoming Programming
+                        </span>
+                      </span>
+                      <ul>
+                        <li class="navigation-item--overview navigation-item">
+                          <a class="Vlt-sidemenu__link Vlt-sidemenu__link_active" role="link" href="/calendar">
+                            Calendar
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="navigation-item--vod navigation-item">
+                      <span class="Vlt-sidemenu__trigger" role="link">
+                        <svg class="Vlt-gray-darker">
+                          <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-small-video">
+                          </use>
+                        <svg>
+                        <span class="Vlt-sidemenu__label">
+                          Video On Demand
+                        </span>
+                      </span>
+                      <ul>
+                        <li class="navigation-item--vod navigation-item">
+                          <a class="Vlt-sidemenu__link" role="link" href="#vod">
+                            VOD
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+    - column:
+      - type: html
+        html:
+          content: |
+            <div class="Vlt-center margin-top-2p">
+              <h1 id="month">
+                August
+              </h1>
+
+              <div class="padding-left-88 padding-right-88">
+                <div class="Vlt-grid black-top-border height-2_8rem padding-sides">
+                  <div class="Vlt-col flex-grow-1 ">
+                    <h3 class="white-text Vlt-center ">Monday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Tuesday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Wednesday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Thursday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Friday</h3>
+                  </div>
+                </div>
+
+                <div class="Vlt-grid black-top-border padding-sides">
+                  <div class="Vlt-col flex-grow-1 flex align-center">
+                    <div class="Vlt-card Vlt-bg-white Vlt-card--clickable">
+                      <div class="Vlt-card__content">
+                        <h3><b>10</b></h3>
+                        <a href="">
+                          Monday Podcast
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>11</b></h3>
+                      <a class="padding-left-55" href="">
+                        Lauren Learns Things
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-100"><b>12</b></h3>
+                      <a class="padding-left-55" href="">
+                        Low-Code Hour
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>13</b></h3>
+                      <a class="padding-left-55" href="">
+                        New Stream, Who Dis?
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-45"><b>14</b></h3>
+                      <a class="padding-left-55" href="">
+                        No Experience Required
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="Vlt-grid black-top-border padding-sides">
+                  <div class="Vlt-col flex-grow-1 flex align-center">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>17</b></h3>
+                      <a class="padding-left-55" href="">
+                        Monday Podcast
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>18</b></h3>
+                      <a class="padding-left-55" href="">
+                        Lauren Learns Things
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-100"><b>19</b></h3>
+                      <a class="padding-left-55" href="">
+                        Low-Code Hour
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>20</b></h3>
+                      <a class="padding-left-55" href="">
+                        New Stream, Who Dis?
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-45"><b>21</b></h3>
+                      <a class="padding-left-55" href="">
+                        No Experience Required
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="Vlt-grid black-top-border padding-sides">
+                  <div class="Vlt-col flex-grow-1 flex align-center">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>24</b></h3>
+                      <a class="padding-left-55" href="">
+                        Monday Podcast
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>25</b></h3>
+                      <a class="padding-left-55" href="">
+                        Lauren Learns Things
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-100"><b>26</b></h3>
+                      <a class="padding-left-55" href="">
+                        Low-Code Hour
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>27</b></h3>
+                      <a class="padding-left-55" href="">
+                        New Stream, Who Dis?
+                      </a>
+                    </div>
+                  </div>
+                  <div class="Vlt-col">
+                    <div class="calendar-day">
+                      <h3 class="padding-right-70"><b>28</b></h3>
+                      <a class="padding-left-55" href="">
+                        No Experience Required
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="Vlt-grid black-top-border padding-sides">
+                </div>
+
+                <div class="Vlt-callout Vlt-callout--tip margin-top-2p">
+                  <i></i>
+                  <div class="Vlt-callout__content">
+                    <p><b>Note:</b> Click on a show for more information</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="Vlt-center margin-top-2p">
+              <h1 id="month">
+                August
+              </h1>
+
+              <div class="padding-left-88 padding-right-88">
+                <div class="Vlt-grid black-top-border height-2_8rem padding-sides">
+                  <div class="Vlt-col flex-grow-1 ">
+                    <h3 class="white-text Vlt-center ">Monday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Tuesday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Wednesday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Thursday</h3>
+                  </div>
+                  <div class="Vlt-col">
+                    <h3 class="white-text Vlt-center ">Friday</h3>
+                  </div>
+                </div>
+
+                <div class="Vlt-tabs">
+                  <div class="Vlt-tabs__header Vlt-grid">
+                    <div class="Vlt-col flex-grow-1 flex align-center">
+                      <div class="Vlt-tabs__link">
+                        <p>
+                          No Experience Required
+                        </p>
+                      </div>
+                      <div class="Vlt-tabs__link">
+                        <p>
+                          Lauren LEarns
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="Vlt-tabs__content">
+                    <div class="Vlt-tabs__panel"><p class="Vlt-grey-darker">No Experience REquired</p></div>
+                    <div class="Vlt-tabs__panel"><p class="Vlt-grey-darker">Lauren Learns</p></div>
+                  </div>
+                </div>
+      - type: text
+        text:
+          content: |
+            <style>
+              .Nxd-landing-page{
+                padding: 0;
+                max-width: none;
+              }
+              .Nxd-landing-col{
+                padding-left: 0;
+                padding-right: 0;
+              }
+              .Nxd-header-notices{
+                padding-left: 0;
+                padding-right: 0;
+              }
+
+              .inline-block{
+                display: inline-block;
+              }
+              #watch-now-btn{
+                margin-left: 35px;
+              }
+
+              .Vlt-grid > .Vlt-col{
+                flex-grow: 0;
+              }
+              .Vlt-grid > .Vlt-col ~ .Vlt-col{
+                flex-grow: 1;
+              }
+              .flex-grow-1{
+                flex-grow: 1 !important;
+              }
+              .italic{
+                font-style: italic;
+              }
+              #Vlt-sidenav{
+                height: 100%
+              }
+              #month{
+                font-size: 72px;
+              }
+              .margin-top-2p{
+                margin-top: 2% !important;
+              }
+              .padding-left-88{
+                padding-left: 88px;
+              }
+              .padding-right-88{
+                padding-right: 88px;
+              }
+              .black-top-border{
+                border-top: 1px solid #131415;
+              }
+              h3:after{
+                color: red !important;
+              }
+              .height-2_8rem{
+                height: 2.8rem;
+              }
+              .calendar-day{
+                padding-bottom: 10px;
+                width: 100%;
+                padding-top: 5px;
+              }
+              .flex{
+                display: flex;
+              }
+              .align-center{
+                align-items: center;
+              }
+              .padding-right-100{
+                padding-right: 100px;
+              }
+              .padding-right-70{
+                padding-right: 70px;
+              }
+              .padding-right-45{
+                padding-right: 45px;
+              }
+              .padding-left-55{
+                padding-left: 55px;
+              }
+              .padding-sides{
+                padding: 0 7%;
+              }
+              </style>

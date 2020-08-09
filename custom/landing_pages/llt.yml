@@ -38,7 +38,7 @@ page:
                           </a>
                           <ul>
                             <li class="navigation-item--lauren-learns-things navigation-item">
-                              <a class="Vlt-sidemenu__link" role="link" href="/llt">
+                              <a class="Vlt-sidemenu__link Vlt-sidemenu__link_active" role="link" href="/llt">
                                 Lauren Learns Things
                               </a>
                             </li>
@@ -83,7 +83,7 @@ page:
                       </span>
                       <ul>
                         <li class="navigation-item--overview navigation-item">
-                          <a class="Vlt-sidemenu__link" role="link" href="#overview">
+                          <a class="Vlt-sidemenu__link" role="link" href="/calendar">
                             Calendar
                           </a>
                         </li>
@@ -115,7 +115,7 @@ page:
       - type: html
         html:
           content: |
-            <div class="Vlt-center">
+            <div class="Vlt-center margin-top-2p">
               <h1>
                 Lauren Learns Things
               </h1>
@@ -131,9 +131,14 @@ page:
             </div>
             <div class="Vlt-grid padding-left-56">
               <div class="Vlt-col flex-grow-1">
-                <video  height="80%" muted autoplay controls loop>
-                  <source src="https://res.cloudinary.com/dsg3ucw55/video/upload/v1596458437/our5twitchstreams_iiqvib.mp4" type="video/mp4">
-                </video>
+                <iframe
+                    src="https://clips.twitch.tv/embed?clip=FurryCreativePeppermintPJSalt&parent=localhost"
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen="true"
+                    autoplay="false"
+                    muted="false">
+                </iframe>
                 <h5 class="video-title">
                   Lauren Introduces Luke Oliff and Slack Bots
                 </h5>
@@ -142,9 +147,13 @@ page:
                 </h5>
               </div>
               <div class="Vlt-col">
-                <video  height="80%" muted autoplay controls loop>
-                  <source src="https://res.cloudinary.com/dsg3ucw55/video/upload/v1596458437/our5twitchstreams_iiqvib.mp4" type="video/mp4">
-                </video>
+              <iframe
+                  src="https://clips.twitch.tv/embed?clip=FurryCreativePeppermintPJSalt&parent=localhost"
+                  frameborder="0"
+                  scrolling="no"
+                  allowfullscreen="true"
+                  autoplay="false">
+              </iframe>
                 <h5 class="video-title">
                   What is Glitch and why to use it.
                 </h5>
@@ -153,9 +162,13 @@ page:
                 </h5>
               </div>
               <div class="Vlt-col">
-                <video  height="80%" muted autoplay controls loop>
-                  <source src="https://res.cloudinary.com/dsg3ucw55/video/upload/v1596458437/our5twitchstreams_iiqvib.mp4" type="video/mp4">
-                </video>
+              <iframe
+                  src="https://clips.twitch.tv/embed?clip=FurryCreativePeppermintPJSalt&parent=localhost"
+                  frameborder="0"
+                  scrolling="no"
+                  allowfullscreen="true"
+                  autoplay="false">
+              </iframe>
                 <h5 class="video-title">
                   Using Prism Mock Server to test APIs
                 </h5>
@@ -165,13 +178,19 @@ page:
               </div>
             </div>
 
-            <div class="Vlt-grid padding-left-56">
-              <div class="Vlt-col flex-grow-1">
+            <div class="Vlt-grid padding-left-56 padding-right-90 margin-top-100 margin-bottom-100">
+              <div class="Vlt-col flex-grow-1 padding-top-2p">
                 <h2 id="about-show" class="Vlt-title--icon">
                   About The Show
                 </h2>
                 <p>
-                  Weekly, each Tuesday Lauren is joined by a PDX team member who is there to teach her (and the viewers) how to build an app or implement one of our APIs. They may be following along a recent blog post or working through a new demo the Developer Advocate is excited about. The app is always built from scratch and is accessible to all levels of developers, from experts to beginners!
+                  Weekly, each Tuesday Lauren is joined by a PDX team member who is there to teach her (and the viewers) how to build an app or implement one of our APIs.
+                </p>
+                <p>
+                  They may be following along a recent blog post or working through a new demo the Developer Advocate is excited about.
+                </p>
+                <p>
+                  The app is always built from scratch and is accessible to all levels of developers, from experts to beginners!
                 </p>
               </div>
               <div class="Vlt-col">
@@ -179,15 +198,15 @@ page:
               </div>
             </div>
 
-            <div class="Vlt-grid padding-left-56">
+            <div class="Vlt-grid padding-left-56 padding-right-90">
               <div class="Vlt-col Vlt-col--1of4 flex-grow-1">
                 <img src="https://res.cloudinary.com/dsg3ucw55/image/upload/v1596487146/Lauren_Lee_trojo1.jpg" alt="Lauren Learns Things">
               </div>
-              <div class="Vlt-col Vlt-col--3of4">
-                <div class="inline-block">
-                  <h2 id="about-host" class="Vlt-title--icon inline-block">
-                    About Lauren Lee
-                  </h2>
+              <div class="Vlt-col Vlt-col--3of4 padding-right-0 height-248 padding-top-4p inline-block">
+                <h2 id="about-host" class="Vlt-title--icon inline-block">
+                  About Lauren Lee
+                </h2>
+                <div class="inline-block margin-left-10">
                   <a href="https://twitter.com/LoLoCoding" target="_blank">
                     <i class="icon icon-twitter">
                     </i>
@@ -201,14 +220,17 @@ page:
                   developer educator manager
                 </h3>
                 <p>
-                  An English teacher turned empathetic software engineer. 👩🏼‍🏫➡️👩🏼‍💻 A curious optimist with a passion for accessible creating content and helping developers level up their skills at Nexmo, the Vonage API.
-
-                  I'm community and social-justice minded and am an innovative, enthusiastic, and curious learner. I enjoy dialogue, being apart of a team, and puzzling through complex logic-based and engineering challenges.
-
-                  When I am not coding👩🏼‍💻, I am involved in community theater🎭, a mentor with Chicktech Seattle🐣, a member of an intramural ice hockey team🏒, and a certified rescue scuba diver⚓️.
-
-                  LoLoCoding.com
+                  An English teacher turned empathetic software engineer. 👩🏼‍🏫  ➡️  👩🏼‍💻 A curious optimist with a passion for accessible creating content and helping developers level up their skills at Nexmo, the Vonage API.
                 </p>
+                <p>
+                  I'm community and social-justice minded and am an innovative, enthusiastic, and curious learner. I enjoy dialogue, being apart of a team, and puzzling through complex logic-based and engineering challenges.
+                </p>
+                <p>
+                  When I am not coding 👩🏼‍💻, I am involved in community theater 🎭, a mentor with Chicktech Seattle 🐣, a member of an intramural ice hockey team 🏒, and a certified rescue scuba diver ⚓️.
+                </p>
+                <a href="https://lolocoding.com">
+                  LoLoCoding.com
+                </a>
               </div>
             </div>
 
@@ -248,7 +270,45 @@ page:
               .italic{
                 font-style: italic;
               }
+              #Vlt-sidenav{
+                height: 100%
+              }
               .padding-left-56{
                 padding-left: 56px;
+              }
+              .padding-right-90{
+                padding-right: 90px;
+              }
+              .padding-right-0{
+                padding-right: 0px;
+              }
+              #watch-now-btn{
+                width: 360px;
+                font-size: 32px;
+              }
+              .padding-top-2p{
+                padding-top: 2%;
+              }
+              .margin-top-100{
+                margin-top: 100px
+              }
+              .margin-bottom-100{
+                margin-bottom: 100px
+              }
+              .height-248{
+                height: 248px;
+              }
+              .icon{
+                font-size: xx-large;
+              }
+              .margin-left-10{
+                margin-left: 10px;
+              }
+              iframe{
+                width: 400px;
+                height: 100%;
+              }
+              .margin-top-2p{
+                margin-top: 2%;
               }
             </style>

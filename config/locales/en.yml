@@ -89,6 +89,8 @@ en:
         voyagers: Voyagers
         devtv: Vonage Dev TV
         llt: Lauren Learns Things
+        calendar: Calendar
+        calendar2: Calendar2
 
   code_snippets:
     copy_to_clipboard: Copy to Clipboard

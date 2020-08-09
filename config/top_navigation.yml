@@ -7,4 +7,5 @@ extend: "/extend"
 voyagers: "/voyagers"
 devtv: "/devtv"
 llt: "/llt"
-
+calendar: "/calendar"
+calendar2: "/calendar2"
