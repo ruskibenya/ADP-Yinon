@@ -1,0 +1,187 @@
+title: "Vonage Dev TV"
+meta_title: "Each week our developers host livestreams on Twitch showing viewers how to code and build innovative apps using our APIs and products."
+container_classes:
+  - dev-tv-page
+page:
+  - row:
+    - column:
+      - type: html
+        html:
+          content:
+            <div id="Vlt-sidenav" class="Vlt-sidenav Nxd-sidenav Vlt-sidenav--animate Vlt-sidenav--rounded">
+              <div class="Vlt-sidenav_scroll">
+                <nav class="sidenav">
+                  <ul class="Vlt-sidemenu navigation js-navigation navigation--documentation">
+                    <li class="navigation-item--show-lineup navigation-item">
+                      <span class="Vlt-sidemenu__trigger" role="link">
+                        <svg class="Vlt-gray-darker">
+                          <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-video">
+                          </use>
+                        <svg>
+                        <span class="Vlt-sidemenu__label">
+                        Show Lineup
+                        </span>
+                      </span>
+                      <ul>
+                        <li class="navigation-item--overview navigation-item">
+                          <a class="Vlt-sidemenu__link" role="link" href="/devtv">
+                            Overview
+                          </a>
+                        </li>
+                        <li class="navigation-item--shows navigation-item">
+                        </li>
+                        <li class="js--collapsible navigation-item--guides navigation-item">
+                          <a class="Vlt-sidemenu__trigger" href="/devtv">
+                            <span class="Vlt-sidemenu__label">
+                            Shows
+                            </span>
+                          </a>
+                          <ul>
+                            <li class="navigation-item--lauren-learns-things navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="/llt">
+                                Lauren Learns Things
+                              </a>
+                            </li>
+                            <li class="navigation-item--low-code-hour navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#lch">
+                                The Low-Code Hour
+                              </a>
+                            </li>
+                            <li class="navigation-item--developer-drop-in navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#ddi">
+                                Developer Drop-In
+                              </a>
+                            </li>
+                            <li class="navigation-item--new-stream-who-dis navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#nswd">
+                                New Stream, Who Dis?
+                              </a>
+                            </li>
+                            <li class="navigation-item--no-experience-required navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#ner">
+                                No Experience Required
+                              </a>
+                            </li>
+                            <li class="navigation-item--ate-night-build navigation-item">
+                              <a class="Vlt-sidemenu__link" role="link" href="#tlnb">
+                                The Late Night Build
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="navigation-item--upcoming-programming navigation-item">
+                      <span class="Vlt-sidemenu__trigger" role="link">
+                        <svg class="Vlt-gray-darker">
+                          <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-calendar-3">
+                          </use>
+                        <svg>
+                        <span class="Vlt-sidemenu__label">
+                          Upcoming Programming
+                        </span>
+                      </span>
+                      <ul>
+                        <li class="navigation-item--overview navigation-item">
+                          <a class="Vlt-sidemenu__link" role="link" href="/calendar">
+                            Calendar
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="navigation-item--vod navigation-item">
+                      <span class="Vlt-sidemenu__trigger" role="link">
+                        <svg class="Vlt-gray-darker">
+                          <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-small-video">
+                          </use>
+                        <svg>
+                        <span class="Vlt-sidemenu__label">
+                          Video On Demand
+                        </span>
+                      </span>
+                      <ul>
+                        <li class="navigation-item--vod navigation-item">
+                          <a class="Vlt-sidemenu__link" role="link" href="#vod">
+                            VOD
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+    - column:
+      - type: html
+        html:
+          content: |
+            <div class="padding-left-56">
+              <h1 class="Vlt-title--icon inline-block" id="vonage-devs-tv">
+                Vonage Dev VOD
+              </h1>
+              <a id="watch-now-btn" class="Vlt-btn Vlt-btn--primary Vlt-btn--app Vlt-btn--large" href="https://twitch.tv/vonagedevs" target="_blank" > < Watch all > </a>
+            </div>
+            <div class="Vlt-tabs">
+              <div class="Vlt-tabs__header">
+                <div class="Vlt-tabs__link Vlt-tabs__link_active">
+                  Active
+                </div>
+                <div class="Vlt-tabs__link">
+                  This is a tab
+                </div>
+              </div>
+
+              <div class="Vlt-tabs__content">
+                <div class="Vlt-tabs__panel">
+                  <div class="Vlt-callout Vlt-callout--tip">
+                    <i></i>
+                    <div class="Vlt-callout__content">
+                      <p><b>Note:</b> Click on a show for more information</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="Vlt-tabs__panel" id="day_1">
+                  Yo
+                </div>
+              </div>
+
+
+            </div>
+      - type: text
+        text:
+          content: |
+            <style>
+              .Nxd-landing-page{
+                padding: 0;
+                max-width: none;
+              }
+              .Nxd-landing-col{
+                padding-left: 0;
+                padding-right: 0;
+              }
+              .Nxd-header-notices{
+                padding-left: 0;
+                padding-right: 0;
+              }
+              .black-bg{
+                background-color: #131415;
+              }
+              .inline-block{
+                display: inline-block;
+              }
+              #watch-now-btn{
+                margin-left: 35px;
+              }
+              .Vlt-grid > .Vlt-col{
+                flex-grow: 0;
+              }
+              .Vlt-grid > .Vlt-col ~ .Vlt-col{
+                flex-grow: 1;
+              }
+              .flex-grow-1{
+                flex-grow: 1 !important;
+              }
+              .padding-left-56{
+                padding-left: 56px;
+              }
+            </style>

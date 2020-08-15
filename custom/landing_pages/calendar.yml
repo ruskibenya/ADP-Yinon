@@ -123,211 +123,336 @@ page:
               <div class="padding-left-88 padding-right-88">
                 <div class="Vlt-grid black-top-border height-2_8rem padding-sides">
                   <div class="Vlt-col flex-grow-1 ">
-                    <h3 class="white-text Vlt-center ">Monday</h3>
+                    <h3 class=" Vlt-center ">Monday</h3>
                   </div>
                   <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Tuesday</h3>
+                    <h3 class=" Vlt-center ">Tuesday</h3>
                   </div>
                   <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Wednesday</h3>
+                    <h3 class=" Vlt-center ">Wednesday</h3>
                   </div>
                   <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Thursday</h3>
+                    <h3 class=" Vlt-center ">Thursday</h3>
                   </div>
                   <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Friday</h3>
+                    <h3 class=" Vlt-center ">Friday</h3>
                   </div>
                 </div>
 
-                <div class="Vlt-grid black-top-border padding-sides">
-                  <div class="Vlt-col flex-grow-1 flex align-center">
-                    <div class="Vlt-card Vlt-bg-white Vlt-card--clickable">
-                      <div class="Vlt-card__content">
-                        <h3><b>10</b></h3>
-                        <a href="">
-                          Monday Podcast
-                        </a>
+                <div class="Vlt-tabs">
+                  <div class="Vlt-tabs__header padding-sides black-top-border">
+                    <div class="Vlt-tabs__link Vlt-tabs__link_active"></div>
+                    <div id="week_one" class="Vlt-grid">
+                      <div class="Vlt-col flex-grow-1 padding-left-25">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>17</b></h3>
+                          <p>
+
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>18</b></h3>
+                          <p>
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>19</b></h3>
+                          <p>
+                            Developer Drop-In
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>20</b></h3>
+                          <p>
+
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>21</b></h3>
+                          <p>
+
+                          </p>
+                        </div>
                       </div>
                     </div>
+                    <div id="week_two" class="Vlt-grid">
+                      <div class="Vlt-col flex-grow-1 padding-left-25">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>24</b></h3>
+                          <p>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>25</b></h3>
+                          <p>
+                            Lauren Learns Things
+                          </p>
+                        </div>
+                      </div>
 
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>11</b></h3>
-                      <a class="padding-left-55" href="">
-                        Lauren Learns Things
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-100"><b>12</b></h3>
-                      <a class="padding-left-55" href="">
-                        Low-Code Hour
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>13</b></h3>
-                      <a class="padding-left-55" href="">
-                        New Stream, Who Dis?
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-45"><b>14</b></h3>
-                      <a class="padding-left-55" href="">
-                        No Experience Required
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="Vlt-grid black-top-border padding-sides">
-                  <div class="Vlt-col flex-grow-1 flex align-center">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>17</b></h3>
-                      <a class="padding-left-55" href="">
-                        Monday Podcast
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>18</b></h3>
-                      <a class="padding-left-55" href="">
-                        Lauren Learns Things
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-100"><b>19</b></h3>
-                      <a class="padding-left-55" href="">
-                        Low-Code Hour
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>20</b></h3>
-                      <a class="padding-left-55" href="">
-                        New Stream, Who Dis?
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-45"><b>21</b></h3>
-                      <a class="padding-left-55" href="">
-                        No Experience Required
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="Vlt-grid black-top-border padding-sides">
-                  <div class="Vlt-col flex-grow-1 flex align-center">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>24</b></h3>
-                      <a class="padding-left-55" href="">
-                        Monday Podcast
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>25</b></h3>
-                      <a class="padding-left-55" href="">
-                        Lauren Learns Things
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-100"><b>26</b></h3>
-                      <a class="padding-left-55" href="">
-                        Low-Code Hour
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>27</b></h3>
-                      <a class="padding-left-55" href="">
-                        New Stream, Who Dis?
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Vlt-col">
-                    <div class="calendar-day">
-                      <h3 class="padding-right-70"><b>28</b></h3>
-                      <a class="padding-left-55" href="">
-                        No Experience Required
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="Vlt-grid black-top-border padding-sides">
-                </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>26</b></h3>
+                          <p>
+                            The Low-Code Hour
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>27</b></h3>
+                          <p>
 
-                <div class="Vlt-callout Vlt-callout--tip margin-top-2p">
-                  <i></i>
-                  <div class="Vlt-callout__content">
-                    <p><b>Note:</b> Click on a show for more information</p>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>28</b></h3>
+                          <p>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="week_three" class="Vlt-grid">
+                      <div class="Vlt-col flex-grow-1 padding-left-25">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>31</b></h3>
+                          <p>
+
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>1</b></h3>
+                          <p>
+                            Lauren Learns Things
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>2</b></h3>
+                          <p>
+                            Developer Drop-In
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>3</b></h3>
+                          <p>
+                            New Stream, Who Dis?
+                          </p>
+                        </div>
+                      </div>
+                      <div class="Vlt-col">
+                        <div class="Vlt-tabs__link">
+                          <h3 class="calendar-date"><b>4</b></h3>
+                          <p>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Vlt-tabs__content margin-top-2p">
+                    <div class="Vlt-tabs__panel Vlt-tabs__panel_active">
+                      <div class="Vlt-callout Vlt-callout--tip margin-top-2p">
+                        <i></i>
+                        <div class="Vlt-callout__content">
+                          <p><b>Note:</b> Click on a show for more information</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Vlt-tabs__panel" id="day_1"></div>
+                    <div class="Vlt-tabs__panel" id="day_2"></div>
+                    <div class="Vlt-tabs__panel" id="day_3">
+                      <div class="Vlt-grid show-card">
+                        <div class="Vlt-col Vlt-col--1of3">
+                          <img src="https://res.cloudinary.com/dsg3ucw55/image/upload/v1596477949/Developer_Drop-In_Lorna_1_2_lkqquz.png" alt="Developer Drop-In">
+                        </div>
+                        <div class="Vlt-col text-align-left">
+                          <div class="Vlt-grid">
+                            <h2 class="Vlt-white Vlt-col flex-grow-1 text-align-left">Developer Drop-In</h2>
+                            <h2 class="Vlt-white Vlt-col text-align-right font-weight-100">
+                              15:00 London / 10:00 New York / 09:00 SF
+                            </h2>
+                          </div>
+                          <h3 class="Vlt-white text-justify margin-top-1p font-weight-100">
+                            Let's put our security hats on and think about some of the things we can do to improve security for our users and our applications. Vonage Verify API provides a 2FA or step-up auth solution that you can use to be confident in your customers' details, and also provides SCA for payments - you can choose the combination of SMS and voice calls your user will get and what languages to use. We also have products that offer webhook integrations, and we'll talk about the security aspects of working with those, checking signatures and authentication.
+                          </h3>
+                          <div class="Vlt-grid margin-top-2p">
+                            <div class="Vlt-col">
+                              <svg class="Vlt-white Vlt-icon Vlt-icon--large margin-top-1p">
+                                <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-tool-full">
+                                </use>
+                              <svg>
+                            </div>
+                            <div class="Vlt-col">
+                              <h4 class="Vlt-white">Vonage Verify API
+                                <span class="margin-left-20">
+                                  Webhooks
+                                </span>
+                                <span class="margin-left-20">
+                                  2FA
+                                </span>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Vlt-tabs__panel" id="day_4"></div>
+                    <div class="Vlt-tabs__panel" id="day_5"></div>
+                    <div class="Vlt-tabs__panel" id="day_6"></div>
+                    <div class="Vlt-tabs__panel" id="day_7">
+                      <div class="Vlt-grid show-card">
+                        <div class="Vlt-col Vlt-col--1of3">
+                          <img src="https://res.cloudinary.com/dsg3ucw55/image/upload/v1597502197/Lauren_Learns_things_30_qwgnev.png" alt="Lauren Learns Things">
+                        </div>
+                        <div class="Vlt-col text-align-left">
+                          <div class="Vlt-grid">
+                            <h2 class="Vlt-white Vlt-col flex-grow-1 text-align-left">Lauren Learns Things</h2>
+                            <h2 class="Vlt-white Vlt-col text-align-right font-weight-100">
+                              15:00 London / 10:00 New York / 09:00 SF
+                            </h2>
+                          </div>
+                          <h3 class="Vlt-white text-justify margin-top-1p font-weight-100">
+                            Guest Lorna Mitchell will show how to deploy a WhatsApp Demo.
+                          </h3>
+                          <div class="Vlt-grid margin-top-2p">
+                            <div class="Vlt-col">
+                              <svg class="Vlt-white Vlt-icon Vlt-icon--large margin-top-1p">
+                                <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-tool-full">
+                                </use>
+                              <svg>
+                            </div>
+                            <div class="Vlt-col">
+                              <h4 class="Vlt-white">Vonage Messages API
+                                <span class="margin-left-20">
+                                  WhatsApp
+                                </span>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Vlt-tabs__panel" id="day_8">
+                      <div class="Vlt-grid show-card">
+                        <div class="Vlt-col Vlt-col--1of3">
+                          <img src="https://res.cloudinary.com/dsg3ucw55/image/upload/v1596477949/The_Low-Code_Hour_1_iijvbd.png" alt="Developer Drop-In">
+                        </div>
+                        <div class="Vlt-col text-align-left">
+                          <div class="Vlt-grid">
+                            <h2 class="Vlt-white Vlt-col flex-grow-1 text-align-left">The Low-Code Hour</h2>
+                            <h2 class="Vlt-white Vlt-col text-align-right font-weight-100">
+                              15:00 London / 10:00 New York / 09:00 SF
+                            </h2>
+                          </div>
+                          <h3 class="Vlt-white text-justify margin-top-1p font-weight-100">
+                            Dial a Podcast with Node-RED
+                            <br>
+                            SMS name of podcast, app searches a directory to find feed, puts latest episode on an NCCO ready for you to call
+                          </h3>
+                          <div class="Vlt-grid margin-top-2p">
+                            <div class="Vlt-col">
+                              <svg class="Vlt-white Vlt-icon Vlt-icon--large margin-top-1p">
+                                <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-tool-full">
+                                </use>
+                              <svg>
+                            </div>
+                            <div class="Vlt-col">
+                              <h4 class="Vlt-white">Vonage  API
+                                <span class="margin-left-20">
+                                </span>
+                                <span class="margin-left-20">
+                                </span>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Vlt-tabs__panel" id="day_9">I'm an inaccessible tab panel becayse my link is disabled</div>
+                    <div class="Vlt-tabs__panel" id="day_10">I'm an inaccessible tab panel becayse my link is disabled</div>
+                    <div class="Vlt-tabs__panel" id="day_11"></div>
+                    <div class="Vlt-tabs__panel" id="day_12">I'm an inaccessible tab panel becayse my link is disabled</div>
+                    <div class="Vlt-tabs__panel" id="day_13">
+                      <div class="Vlt-grid show-card">
+                        <div class="Vlt-col Vlt-col--1of3">
+                          <img src="https://res.cloudinary.com/dsg3ucw55/image/upload/v1596477949/Developer_Drop-In_Lorna_1_2_lkqquz.png" alt="Developer Drop-In">
+                        </div>
+                        <div class="Vlt-col text-align-left">
+                          <div class="Vlt-grid">
+                            <h2 class="Vlt-white Vlt-col flex-grow-1 text-align-left">Developer Drop-In</h2>
+                            <h2 class="Vlt-white Vlt-col text-align-right font-weight-100">
+                              15:00 London / 10:00 New York / 09:00 SF
+                            </h2>
+                          </div>
+                          <h3 class="Vlt-white text-justify margin-top-1p font-weight-100">
+                            What does JWT stand for? JSON Web Tokens! As we see these tokens used for integrating all sorts of web applications, including our own APIs and webhooks, this seems like a great time to dive in a little deeper and look at what they are and how they work. Take some time to understand the mechanics and also pick up some tips for debugging when things don't work as expected.
+                          </h3>
+                          <div class="Vlt-grid margin-top-2p">
+                            <div class="Vlt-col">
+                              <svg class="Vlt-white Vlt-icon Vlt-icon--large margin-top-1p">
+                                <use xlink:href="/symbol/volta-icons.svg#Vlt-icon-tool-full">
+                                </use>
+                              <svg>
+                            </div>
+                            <div class="Vlt-col">
+                              <h4 class="Vlt-white">Vonage Verify API
+                                <span class="margin-left-20">
+                                  Javascript
+                                </span>
+                                <span class="margin-left-20">
+                                  JWT
+                                </span>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Vlt-tabs__panel" id="day_14">
+                      <div class="Vlt-grid show-card">
+                        <div class="Vlt-col Vlt-col--1of3">
+                          <img src="https://res.cloudinary.com/dsg3ucw55/image/upload/v1596477949/16-7-2020_Nahrin_4_hkywr8.png" alt="New Stream, Who Dis?">
+                        </div>
+                        <div class="Vlt-col text-align-left">
+                          <div class="Vlt-grid">
+                            <h2 class="Vlt-white Vlt-col flex-grow-1 text-align-left">New Stream, Who Dis?</h2>
+                            <h2 class="Vlt-white Vlt-col text-align-right font-weight-100">
+                              17:00 London / 12:00 New York / 11:00 SF
+                            </h2>
+                          </div>
+                          <h3 class="Vlt-white text-justify margin-top-1p font-weight-100">
+                            We'll be discussing <a href="https://twitter.com/ParissAthena" target="_blank"><b>Pariss'</b></a>  experience with having a platform on Twitter and authentically growing that presence.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="Vlt-tabs__panel" id="day_15">I'm an inaccessible tab panel becayse my link is disabled</div>
                   </div>
                 </div>
               </div>
             </div>
 
-
-            <div class="Vlt-center margin-top-2p">
-              <h1 id="month">
-                August
-              </h1>
-
-              <div class="padding-left-88 padding-right-88">
-                <div class="Vlt-grid black-top-border height-2_8rem padding-sides">
-                  <div class="Vlt-col flex-grow-1 ">
-                    <h3 class="white-text Vlt-center ">Monday</h3>
-                  </div>
-                  <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Tuesday</h3>
-                  </div>
-                  <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Wednesday</h3>
-                  </div>
-                  <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Thursday</h3>
-                  </div>
-                  <div class="Vlt-col">
-                    <h3 class="white-text Vlt-center ">Friday</h3>
-                  </div>
-                </div>
-
-                <div class="Vlt-tabs">
-                  <div class="Vlt-tabs__header Vlt-grid">
-                    <div class="Vlt-col flex-grow-1 flex align-center">
-                      <div class="Vlt-tabs__link">
-                        <p>
-                          No Experience Required
-                        </p>
-                      </div>
-                      <div class="Vlt-tabs__link">
-                        <p>
-                          Lauren LEarns
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-
-
-                  <div class="Vlt-tabs__content">
-                    <div class="Vlt-tabs__panel"><p class="Vlt-grey-darker">No Experience REquired</p></div>
-                    <div class="Vlt-tabs__panel"><p class="Vlt-grey-darker">Lauren Learns</p></div>
-                  </div>
-                </div>
       - type: text
         text:
           content: |
@@ -364,14 +489,15 @@ page:
               .italic{
                 font-style: italic;
               }
-              #Vlt-sidenav{
-                height: 100%
-              }
+
               #month{
                 font-size: 72px;
               }
               .margin-top-2p{
                 margin-top: 2% !important;
+              }
+              .margin-top-1p{
+                margin-top: 1% !important;
               }
               .padding-left-88{
                 padding-left: 88px;
@@ -414,4 +540,57 @@ page:
               .padding-sides{
                 padding: 0 7%;
               }
+
+              .Vlt-tabs__header{
+                border-bottom: none;
+                display: inherit;
+              }
+
+              .Vlt-tabs{
+                margin-left: -16px;
+                margin-right: -16px;
+              }
+
+              .Vlt-tabs__link_active:after{
+                display: none;
+              }
+              .Vlt-col > .Vlt-tabs__link_active{
+                  background: #B779FF;
+                  border-radius: 6px;
+                  padding: 10px;
+              }
+
+              .Vlt-tabs__link_active > h3{
+                  color: white !important;
+                }
+              .Vlt-tabs__link_active > p{
+                  color: white !important;
+                }
+              .padding-left-25{
+                padding-left: 25px;
+              }
+              .show-card{
+                background-color: #54575E;
+                padding: 20px 0px 20px 0px;
+              }
+              .text-align-left{
+                text-align: left;
+              }
+              .text-align-right{
+                text-align: right;
+              }
+              .text-justify{
+                text-align: justify;
+              }
+              .margin-left-20{
+                margin-left: 20px;
+              }
+              .font-weight-100{
+                font-weight: 100 !important;
+              }
+              .calendar-date{
+                text-align: left;
+                min-width: 140px;
+              }
               </style>
+
