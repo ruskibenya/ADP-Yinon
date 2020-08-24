@@ -88,9 +88,7 @@ en:
         use-cases: Use Cases
         voyagers: Voyagers
         devtv: Vonage Dev TV
-        llt: Lauren Learns Things
-        calendar: Calendar
-        vod: VOD
+
 
   code_snippets:
     copy_to_clipboard: Copy to Clipboard
